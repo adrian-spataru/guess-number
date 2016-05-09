@@ -1,0 +1,68 @@
+/*
+    Table of Content
+    -Imports
+    -Reset
+    -Game Styling
+*/
+
+/*
+  Imports
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/*
+  Reset
+*/
+
+html, body, div,h1,form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Lato';
+}
+
+/*
+  Game Styling
+*/
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #FFF;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3D405B;
+    text-align: center;
+}
+
+#input {
+    align-self: center;
+    width: 400px;
+}
+.btn {
+    background: #fff;
+    color: #333;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-style: none;
+}
+.hidden {
+    visibility: hidden;
+}
+#input {
+    padding: 10px;
+    border: none;
+    color: #3D405B;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
